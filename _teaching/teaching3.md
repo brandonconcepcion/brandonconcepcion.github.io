@@ -2,7 +2,7 @@
 title: "Group Facilitator, Berkeley Unboxing Data Science (BUDS) (Summer 2024)"
 collection: teaching
 type: "Workshop"
-permalink: /teaching/2024-spring-teaching-3
+permalink: /teaching/spring-teaching-3
 venue: "University of California, Berkeley: College of Computing and Data Science"
 date: 2024-07-05
 location: "Berkeley, California"

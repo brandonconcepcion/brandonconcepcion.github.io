@@ -2,7 +2,7 @@
 title: "Course Director, Data Science Society at Berkeley (Summer - Fall 2024)"
 collection: teaching
 type: "Undergraduate Course"
-permalink: /teaching/2024-spring-teaching-3
+permalink: /teaching/spring-teaching-2
 venue: "Data Science Society at Berkeley"
 date: 2024-09-15
 location: "Berkeley, California"

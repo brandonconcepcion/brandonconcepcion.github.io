@@ -5,10 +5,20 @@ permalink: /portfolio/
 author_profile: true
 ---
 
+<style>
+  .portfoliogrid{
+    display: grid; 
+    grid-template-columns: 450px 450px;
+    grid-gap: 15px; 
+  }
+</style>
+
+Welcome to my Portfolio! This is where I highlight some of the projects I've worked on. My full catalog of projects can be found <a href = "https://github.com/brandonconcepcion" target = "_blank">here!</a>
+
 {% include base_path %}
-
-
+<div class = "portfoliogrid">
 {% for post in site.portfolio %}
   {% include archive-single.html %}
 {% endfor %}
+</div>
 

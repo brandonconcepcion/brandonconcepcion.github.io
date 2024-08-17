@@ -1,7 +1,14 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Prophecy of Properties"
+excerpt: "<img style='border-radius:15px; width: 400px;' src='../images/housing.webp'> <br/>"
+
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+## Description 
+* GitHub Repository for this project can be found <a href = "https://github.com/brandonconcepcion/Prophecy-of-Properties" target = "_blank">here!</a>
+* Created an 85-feature machine learning model to predict housing prices using feature engineering and multiple linear regression
+* Achieved a cross-validation Root Mean Squared Error of ~$125k across 500,000+ housing records in Cook County, Illinois
+
+
+

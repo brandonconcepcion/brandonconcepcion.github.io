@@ -2,7 +2,7 @@
 title: "Course Tutor, DATA c8: Foundations of Data Science (Fall 2023 - Spring 2024)"
 collection: teaching
 type: "Undergraduate Course"
-permalink: /teaching/2024-spring-teaching-4
+permalink: /teaching/spring-teaching-4
 venue: "University of California, Berkeley: College of Computing and Data Science"
 date: 2023-08-15
 location: "Berkeley, California"
