@@ -3,7 +3,7 @@ title: "Undergraduate Student Instructor, DATA c8: Foundations of Data Science"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-spring-teaching-1
-venue: "University of California, Berkeley: College of Computing and Data Science (Summer)"
+venue: "University of California, Berkeley: College of Computing and Data Science, Summer 2024"
 date: 2024-06-17
 location: "Berkeley, California"
 ---
