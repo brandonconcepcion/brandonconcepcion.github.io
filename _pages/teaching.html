@@ -9,6 +9,8 @@ I am a current member of the teaching staff for DATA C8: Foundations of Data Sci
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
+{% assign sorted_posts = site.teaching | sort: 'order' %}
+
+{% for post in sorted_posts %}
   {% include archive-single.html %}
 {% endfor %}
