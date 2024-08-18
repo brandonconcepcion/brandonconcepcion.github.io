@@ -41,4 +41,4 @@ __[University of California, Berkeley](https://www.berkeley.edu/)__, Undergradua
 * <a href = "https://slc.berkeley.edu/programs/science/courses-supported/chemistry-1a-1al" target = "_blank">CHEM 1A: General Chemistry</a>
 * RHETOR R1B: The Craft of Writing
 * <a href = "https://classes.berkeley.edu/content/2023-fall-sociol-3ac-001-lec-001" target = "_blank">SOCIO 3AC: Principles of Sociology: American Cultures</a>
-* <a href = "https://classes.berkeley.edu/content/2024-fall-ugba-135-001-lec-001" target = "_blank">UGBA 135: Personal Finance</a>
+* <a href = "https://classes.berkeley.edu/content/2024-fall-ugba-135-001-lec-001" target = "_blank">UGBA 135: Personal Financial Management</a>
