@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Brandon Lee Concepcion"
   pronouns         : # example: "she/her"  
-  bio              : "UC Berkeley | Class of 2026 <br /> B.A in Data Science <br />B.A in Computer Science <br /> Domain Emphasis in Applied Mathematics"
+  bio              : "UC Berkeley | Class of 2026 <br /> B.A in Data Science <br />B.A in Computer Science <br /> Domain Emphasis in wrApplied Mathematics"
   location         : "San Francisco Bay Area"
   employer         : "University of California, Berkeley"
   uri              : # URL
@@ -273,9 +273,9 @@ defaults:
   # _talks
   - scope:
       path: ""
-      type: talks
+      type: courseworks
     values:
-      layout: talk
+      layout: Coursework
       author_profile: true
       share: true
 
