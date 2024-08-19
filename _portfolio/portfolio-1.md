@@ -22,7 +22,7 @@ collection: portfolio
 * Scikit-Learn 
 * Regular Expressions
 
-### Tools
+### Skills
 * Machine Learning 
 * Data Visualization
 * Principal Component Analysis (PCA)
