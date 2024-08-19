@@ -19,6 +19,7 @@ __[University of California, Berkeley](https://www.berkeley.edu/)__, Undergradua
 * <a href = "http://www.data8.org/fa22/" target = "_blank">DATA c8: Foundations of Data Science</a>
 * <a href = "https://ds100.org" target = "_blank">DATA 100: Principles and Techniques of Data Science</a>
 * <a href = "http://prob140.org/" target = "_blank">DATA 140: Probability for Data Science</a> __*__ 
+* <a href = "https://sites.google.com/berkeley.edu/dighum-100/home?pli=1" target = "_blank">DIGHUM 100: Theory and Methods in the Digital Humanities</a>
 * <a href = "https://classes.berkeley.edu/content/2024-fall-indeng-142a-1-lec-1" target = "_blank">IND ENG 142A: Introduction to Machine Learning and Data Analytics</a> __*__ 
 * <a href = "https://math.berkeley.edu/courses/overview/lowerdivcourses/math1b" target = "_blank">MATH 1B: Calculus II</a>
 * <a href = "https://math.berkeley.edu/courses/overview/lowerdivcourses/math53" target = "_blank">MATH 53: Multivariable Calculus</a>
