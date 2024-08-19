@@ -1,31 +1,21 @@
 ---
-title: "To be Spam, or Ham?"
+title: "The Colony Chronicles: Bee-Gone"
 excerpt: "<img style='border-radius:15px; width: 400px;' src='../images/ants.webp'>"
 
 collection: portfolio
 ---
 
-## What do 'spam' and 'ham' mean? 
-* Spam (1) emails are unsolicited or bulk messages, often commercial in nature, while ham (0) emails are legitimate, non-spam communications.
-
 ## Description 
-* The GitHub Repo for this project can be found <a href = "https://github.com/brandonconcepcion/Spam-vs-Ham/tree/main" target = "_blank">here!</a>
-* Engineered a logistic regression model on a dataset of over 7,500 points, resulting in an email classifier that achieved 90% validation accuracy and an Area Under the ROC Curve (AUC) of 0.9.
-* Applied advanced feature engineering and Principal Component Analysis (PCA) to reduce dimensionality from 18 to 5 features, mitigating overfitting and ensuring 92% of legitimate (ham) emails were correctly identified and retained in the inbox.
-* Enhanced model performance through GridSearch optimization across 4 hyperparameters, resulting in a 5% increase in accuracy when classifying a validation set of 835 emails.
+* I Used Object Oriented Programming (OOP) to implement 13 defensive units for a tower defense game I call **Colony Chronicles: Bee Gone.** 
+* I worked on this project when I took COMPSCI 61A: "Structure and Interpretation of Computer Programs" at UC Berkeley. 
+* A demo of the final game can seen <a href = "https://www.youtube.com/watch?v=noZKTQ23QBs" target = "_blank">here!</a>
+* GitHub Repository for this project can be found <a href = "https://github.com/brandonconcepcion/Colony-Chronicles?tab=readme-ov-file" target = "_blank">here!</a>
+
+## The Game 
+* A game consists of a series of turns. In each turn, new bees may enter the ant colony. Then, new ants are placed to defend their colony. Finally, all insects (ants, then bees) take individual actions. Bees either try to move toward the end of the tunnel or sting ants in their way. Ants perform a different action depending on their type, such as collecting more food, or throwing leaves at the bees. The game ends either when a bee reaches the end of a tunnel (you lose), or the entire bee fleet has been vanquished (you win).
 
 ### Tools
-* Python 
-* NumPy
-* Pandas
-* Seaborn
-* Scikit-Learn 
-* Regular Expressions
-
-### Tools
-* Machine Learning 
-* Data Visualization
-* Principal Component Analysis (PCA)
-* Classification 
-* Logistic Regression
-* Feature Engineering
+* Python
+* HTML
+* CSS
+* JavaScript
