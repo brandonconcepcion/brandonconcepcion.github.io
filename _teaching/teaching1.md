@@ -12,7 +12,7 @@ order: 1
 
 ### Responsibilities:
 * Course Materials for Summer 2024 can be found <a href = "https://linktr.ee/bingSU24" target = "_blank">here</a>
-* Led students to achieve the **highest** mean (80%) and median (83%) final-exam scores among all student instructors, as well as the highest overall average (89%) and median (91%) cumulative course scores among all student instructors
+* Led my students to achieve the **highest** mean (80%) and median (83%) final-exam scores among all student instructors, as well as the highest overall average (89%) and median (91%) cumulative course scores among all student instructors
 * Developed and delivered educational content to a student population of over 1,800 by providing comprehensive and effective instruction through 10 office hours sessions, 2 exam review sessions, answer of 400+ questions on discussion forums, and management of 3 tutors to address student questions and concerns
 * Led 12 lectures and guided a section of 40 students through assignments, effectively explaining statistical theory and data science practices to a demographic with limited STEM backgrounds
 * Enhanced the <a href = "https://www.data8.org/su24/" target = "_blank">Data 8 Website</a> using HTML, CSS, and Javascript for front-end development; adding 19 dynamic tabs to filter 250+ past exam problems by their topic
