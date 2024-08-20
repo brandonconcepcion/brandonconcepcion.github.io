@@ -7,8 +7,8 @@ collection: portfolio
 
 ## Description 
 
-* Utilized feature engineering and multiple linear regression to create an 85-feature machine learning model to predict housing prices
-* Achieved a cross-validation Root Mean Squared Error of ~$125k across 500,000+ housing records in Cook County, Illinois
+* Trained an 85-feature machine learning model on 500,000+ housing records to predict housing prices in Cook County, Illinois
+* Achieved a Root Mean Squared Error (RMSE) of ~$103k across a training set of 30,000+ housing records, leveraging techniques such as feature engineering and k-fold cross-validation to tune hyperparameters and optimize model performance.
 * GitHub Repository for this project can be found <a href = "https://github.com/brandonconcepcion/Prophecy-of-Properties" target = "_blank">here!</a>
 
 ### Tools
