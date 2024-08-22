@@ -16,7 +16,7 @@ order: 1
 * Developed and delivered educational content to a student population of over 1,800 by providing comprehensive and effective instruction through 10 office hours sessions, 2 exam review sessions, answer of 400+ questions on discussion forums, and management of 3 tutors to address student questions and concerns
 * Led 12 lectures and guided a section of 40 students through assignments, effectively explaining statistical theory and data science practices to a demographic with limited STEM backgrounds
 * Enhanced the <a href = "https://www.data8.org/su24/" target = "_blank">Data 8 Website</a> using HTML, CSS, and Javascript for front-end development; adding 19 dynamic tabs to filter 250+ past exam problems by their topic
-*  Added the Past Semesters Auxillary link, an Instructor Icon on the landing page, created the <a href = "https://www.data8.org/su24/acknowledgements/" target = "_blank">Acknowledgements</a> page with 30+ contributors, and implemented the Hover Photo feature for 20+ <a href = "https://www.data8.org/su24/staff/" target = "_blank">staff</a> members using JavaScript
+*  Added the Past Semesters Auxillary link, an Instructor Icon on the landing page and implemented the Hover Photo feature for 20+ <a href = "https://www.data8.org/su24/staff/" target = "_blank">staff</a> members using JavaScript
 
 ### Photos
 
