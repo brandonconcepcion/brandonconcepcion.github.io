@@ -15,6 +15,7 @@ __[University of California, Berkeley](https://www.berkeley.edu/)__, Undergradua
 # Current Courses
 * <a href = "https://classes.berkeley.edu/content/2024-fall-data-c182-001-lec-001" target = "_blank">COMPSCI 182: Designing, Visualizing and Understanding Deep Neural Networks</a> 
 * <a href = "http://prob140.org/" target = "_blank">DATA 140: Probability for Data Science</a>
+* <a href = "https://classes.berkeley.edu/content/2024-fall-data-375-001-lec-001" target = "_blank">DATA 375: Professional Preparation: Teaching of Data Science</a>
 * <a href = "https://classes.berkeley.edu/content/2024-fall-indeng-142a-1-lec-1" target = "_blank">IND ENG 142A: Introduction to Machine Learning and Data Analytics</a> 
 * <a href = "https://classes.berkeley.edu/content/2024-fall-ugba-135-001-lec-001" target = "_blank">UGBA 135: Personal Financial Management</a> 
 
