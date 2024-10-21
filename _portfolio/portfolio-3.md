@@ -1,6 +1,6 @@
 ---
 title: "Prophecy of Properties"
-excerpt: "<img style='border-radius:15px; width: 400px;' src='../images/prophecy.webp'>"
+excerpt: "<img style='border-radius:15px; width: 400px;' src='../images/house.webp'>"
 
 collection: portfolio
 ---
