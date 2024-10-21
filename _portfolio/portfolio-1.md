@@ -1,31 +1,27 @@
 ---
-title: "To Spam, or Ham?"
-excerpt: "<img style='border-radius:15px; width: 400px;' src='../images/spam.webp'>"
+title: "EyeSpy AI: Retinal Video Sequences"
+excerpt: "<img style='border-radius:15px; width: 400px;' src='../images/eye.png'>"
 
 collection: portfolio
 ---
 
-## What do 'spam' and 'ham' mean? 
-* Spam (1) emails are unsolicited or bulk messages, often commercial in nature, while ham (0) emails are legitimate, non-spam communications.
+* For our entry in UC Berkeley's 5th Annual Datathon, I, along with my three teammates Jonathan Ferrari, Dhruv Pendharkar, and Miles Wang, crafted a Variational Autoencoder capable of producing videos from retinal scans and their numerical frameshift sequences. We earned an Honorable Mention in the competition.
+* The link to our presentation can be found <a href = "https://docs.google.com/presentation/d/1fZJEeBDwHreNEdTuemGBR1qd5tEJIVjMFvc1yjGkomQ/edit?usp=sharing" target = "_blank">here!</a>
+
 
 ## Description 
-* The GitHub Repo for this project can be found <a href = "https://github.com/brandonconcepcion/Spam-vs-Ham/tree/main" target = "_blank">here!</a>
-* Engineered a logistic regression model on a dataset of over 7,500 points, resulting in an email classifier that achieved 90% testing accuracy and an Area Under the ROC Curve (AUC) of 0.91.
-* Applied advanced feature engineering and Principal Component Analysis (PCA) to reduce dimensionality from 18 to 5 features, mitigating overfitting and ensuring 92% of legitimate (ham) emails in the test set of 1065 were correctly identified and retained in the inbox.
-* Enhanced model performance through GridSearch optimization across 4 hyperparameters, resulting in a 5% increase in accuracy when classifying a validation set of 1250 emails.
+* The GitHub Repo for this project can be found <a href = "https://github.com/jonathanferrari/datathon-cv" target = "_blank">here!</a>
+* Coded a Variational Auto-Encoder (VAE) neural network to convert retinal movement numerical data into generative AI video simulations of retinal movement afflicted by one of three different diseases
+* Implemented a data preprocessing pipeline that converts .avi files into sets of 300 individual frames
+* Ran training data through a Long-Short Term Memory (LSTM) network to encode data into latent space, then decoded data using a Gated Recurrent Unit (GRU), producing video simulations in 512x512 resolution
 
 ### Tools
 * Python 
 * NumPy
-* Pandas
-* Seaborn
-* Scikit-Learn 
-* Regular Expressions
+* PyTorch
+* Cv2
 
 ### Skills
+* Computer Vision 
 * Machine Learning 
-* Data Visualization
-* Principal Component Analysis (PCA)
-* Classification 
-* Logistic Regression
-* Feature Engineering
+* Deep Learning
