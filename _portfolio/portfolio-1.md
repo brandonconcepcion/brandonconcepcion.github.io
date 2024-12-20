@@ -1,3 +1,4 @@
+<!--
 ---
 title: "SafeZone"
 excerpt: "<img style='border-radius:15px; width: 400px;' src='../images/map.webp'>"
@@ -17,4 +18,4 @@ collection: portfolio
 * Streamlit
 * Pandas
 * ACLED API
-
+-->
