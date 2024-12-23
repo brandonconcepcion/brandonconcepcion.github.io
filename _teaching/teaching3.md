@@ -1,45 +1,47 @@
 ---
-title: "Course Director, Data Science Society at Berkeley (Summer - Fall 2024)"
+title: "Undergraduate Student Instructor, DATA c8: Foundations of Data Science (Summer 2024)"
 collection: teaching
-type: "Undergraduate Course"
-permalink: /teaching/spring-teaching-2
-venue: "Data Science Society at Berkeley"
-date: 2024-09-15
+type: "Undergraduate course"
+permalink: /teaching/16hr_ugsi
+venue: "University of California, Berkeley: College of Computing and Data Science"
+date: 2024-06-17
 location: "Berkeley, California"
 order: 3
 ---
 
-### Responsibilities:
-* Managing 8 Teaching Assistants and 6 tutors to operate the <a href = "https://dss-data198.github.io/Data198/index.html" target = "_blank">“Introduction to Real World Data Science”</a> course, promoting data science accessibility by 5 hosting educational workshops from industry and academic leaders
-* Teaching and facilitating 70+ diverse students towards the completion of an 8-week-long introductory data science project, lecturing on industry-level topics such as Pandas, data cleaning, data visualization, and machine learning 
-* Explored domains in finance, sports analytics, and real estate while supporting 14 groups of 5 students through project planning, data cleaning, Exploratory Data Analysis, machine learning modeling, model testing, and ultimately a presentation on their findings 
+* Led my students to achieve average exam scores in the 90th percentile, as well as cumulative course grades in the 93rd percentile, highest among all student instructors
 
+### Other Responsibilities
+* Course Materials for Summer 2024 can be found <a href = "https://linktr.ee/bingSU24" target = "_blank">here</a> and Student Evaluations can be found <a href = "../files/Su24_Evals.pdf" target = "_blank">here!</a>
+* Restructured data8.org/su24 using HTML, CSS, and Javascript for front-end web development, adding 19 dynamic <a href = "https://www.data8.org/su24/resources/#exam-problems-by-topic" target = "_blank">tabs</a> to organize 250+ past exam problems by their scope in the course
+* Led 12 lectures and guided a section of 40 students through assignments, effectively explaining statistical theory and data science practices to a demographic with limited STEM backgrounds
+* Implemented the Hover Photo feature for 20+ <a href = "https://www.data8.org/su24/staff/" target = "_blank">staff</a> members
 
-## Photos
+### Photos
 
-<div style = "margin-top: 25px; display: grid; grid-template-columns: 400px 400px; grid-column-gap: 50px; row-gap: 5px; margin-left: 45px; align-items: end;">
+<div style = "display: grid; grid-template-columns: 350px 350px; grid-column-gap: 50px; row-gap: 5px; margin-left: 45px; align-items: end;">
     <div>
-        <img style = "width: 400px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/spacadev.jpg">
+        <img style = "width: 350px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/potluck.png">
         <div  style = "display: flex; justify-content: center; width = 100%; font-family: Arial; ">
-            <p>🐤 Academic Development Committee</p>
+            <p>🥘 Staff Potluck</p>
         </div>
     </div>
      <div>
-        <img style = "width: 400px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/dssgroup.JPG">
+        <img style = "width: 350px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/students.png">
         <div  style = "display: flex; justify-content: center; width = 100%; font-family: Arial;">
-            <p>🗃️ <a href = "https://dssberkeley.com/" target = "_blank">Data Science Society</a> at Berkeley</p>
+            <p>👨🏼‍🏫 My Tutor Supports and Students</p>
         </div>
     </div>
     <div>
-        <img style = "width: 400px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/firstlecture.JPG">
-        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Arial;">
-            <p>📊 Lecture on EDA with <a href = "https://www.linkedin.com/in/madhuri-suresh0404/" target = "_blank">Madhuri Suresh</a></p>
+        <img style = "width: 350px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/sunset.jpg">
+        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Arial; ">
+            <p>🌇 Review Session Sunset</p>
         </div>
     </div>
     <div>
-        <img style = "width: 400px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/acadevmeeting.JPG">
+        <img style = "width: 350px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/taco.jpg">
         <div  style = "display: flex; justify-content: center; width = 100%; font-family: Arial;">
-            <p>✅ First Academic Development Meeting</p>
+            <p>🌮 Data 8 Taco Tuesday</p>
         </div>
     </div>
 </div>

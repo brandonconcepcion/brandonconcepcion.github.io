@@ -2,15 +2,16 @@
 title: "Group Facilitator, Berkeley Unboxing Data Science (BUDS) (Summer 2024)"
 collection: teaching
 type: "Workshop"
-permalink: /teaching/spring-teaching-3
+permalink: /teaching/buds
 venue: "University of California, Berkeley: College of Computing and Data Science"
 date: 2024-07-05
 location: "Berkeley, California"
 order: 4
 ---
 
-### Responsibilities:
-* Collaborated with the [Achieve Program](https://achieveprogram.org/) to mentor 10 interns through individual data science projects, from browsing 100+ publicly available datasets, using Python to clean and analyze the data in Jupyter Notebooks, and ultimately decking for a <a href = "https://drive.google.com/drive/folders/1UO74eXEU5q_0TwPg9QWzYkzDQLNNoxqo?usp=sharing" target = "_blank">presentation</a> on their research findings
+* Collaborated with the [Achieve Program](https://achieveprogram.org/) to mentor 10 interns through individual data science <a href = "https://drive.google.com/drive/folders/1UO74eXEU5q_0TwPg9QWzYkzDQLNNoxqo?usp=sharing" target = "_blank">projects</a> on their research findings
+
+### Other Responsibilities
 * Collaborated with 2 faculty directors and 2 lead facilitators to enhance the internship experience, integrating 12 learning reports and 10 external workshops featuring guest speakers from industry and academia
 
 ## Photos

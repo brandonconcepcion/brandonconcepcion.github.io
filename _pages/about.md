@@ -31,6 +31,15 @@ Hi! I'm Brandon Lee Concepcion, a current undergraduate third-year studying Data
 
 Outside of my own academics, I’m committed to empowering students to accomplish their personal and academic ambitions, ensuring that each of my students are well-equipped with the resources they need to succeed.
 
-I currently hold positions as an Undergraduate Student Instructor for UC Berkeley's College of Computing, Data Science, and Society (CDSS), as well as the Course Director for the Data Science Society at Berkeley. 
+<a href="files/ConcepcionBrandon_Resume.pdf" class="linkedin-btn" target="_blank">My Resume!</a>
 
-<a href="files/Concepcion_Brandon_Resume.pdf" class="linkedin-btn" target="_blank">My Resume!</a>
+## Current Positions: 
+* Lead Instructor for <a href = "https://www.data8.org/" target="_blank">DATA 8</a> (Grading Team)  
+* Modules Developer for <a href = "https://cdss.berkeley.edu/" target="_blank">CDSS</a>
+* Vice President for the <a href = "https://dssberkeley.com/" target="_blank">Data Science Society at Berkeley</a>
+
+## What I'm Up To!
+* Watching Arcane Season 2 
+* Listening to Eminem and Conan Gray
+
+
