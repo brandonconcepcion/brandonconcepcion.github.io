@@ -1,3 +1,4 @@
+<!-->
 ---
 title: "EyeSpy AI: Retinal Video Sequences"
 excerpt: "<img style='border-radius:15px; width: 400px; height: 228.57px;' src='../images/eye.png'>"
@@ -25,3 +26,4 @@ collection: portfolio
 * Computer Vision 
 * Machine Learning 
 * Deep Learning
+-->
