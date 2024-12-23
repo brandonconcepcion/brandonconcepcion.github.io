@@ -9,7 +9,7 @@ location: "Berkeley, California"
 order: 2
 ---
 
-* Created the course website <a href = "https://dssdecal.org" target = "_blank">dssdecal.org</a> by utilizing Jekyll, Ruby, and Github Actions, and currently developing a 12-chapter introductory data science textbook at dssdecal.org/textbook
+* Created the course website <a href = "https://dssdecal.org" target = "_blank">dssdecal.org</a> by utilizing Jekyll, Ruby, and Github Actions, and currently developing a 12-chapter introductory data science textbook at <a href = "https://dssdecal.org/textbook" target = "_blank">dssdecal.org/textbook</a>
 
 ### Other Responsibilities
 * Managing 16 Teaching Assistants and 12 tutors to operate the “An Introduction to Real World Data Science” course, promoting accessibility by hosting educational workshops from industry and academic leaders for the 70+ diverse students in the course
