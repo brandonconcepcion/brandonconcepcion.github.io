@@ -1,5 +1,5 @@
 ---
-title: "Course Director, Data Science Society at Berkeley (Summer - Fall 2024)"
+title: "Vice President, Data Science Society at Berkeley (Summer - Fall 2024)"
 collection: teaching
 type: "Undergraduate Course"
 permalink: /teaching/VP_Acadev
@@ -20,25 +20,25 @@ order: 2
 <div style = "margin-top: 25px; display: grid; grid-template-columns: 400px 400px; grid-column-gap: 50px; row-gap: 5px; margin-left: 45px; align-items: end;">
     <div>
         <img style = "width: 400px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/spacadev.jpg">
-        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Arial; ">
+        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Montserrat; ">
             <p>🐤 Academic Development Committee</p>
         </div>
     </div>
      <div>
-        <img style = "width: 400px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/dssgroup.JPG">
-        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Arial;">
-            <p>🗃️ <a href = "https://dssberkeley.com/" target = "_blank">Data Science Society</a> at Berkeley</p>
+        <img style = "width: 400px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/acadev_honshin.png">
+        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Montserrat;">
+            <p>🗃️ Academic Development at Honshin!</p>
         </div>
     </div>
     <div>
         <img style = "width: 400px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/firstlecture.JPG">
-        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Arial;">
+        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Montserrat;">
             <p>📊 Lecture on EDA with <a href = "https://www.linkedin.com/in/madhuri-suresh0404/" target = "_blank">Madhuri Suresh</a></p>
         </div>
     </div>
     <div>
         <img style = "width: 400px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/acadevmeeting.JPG">
-        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Arial;">
+        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Montserrat;">
             <p>✅ First Academic Development Meeting</p>
         </div>
     </div>

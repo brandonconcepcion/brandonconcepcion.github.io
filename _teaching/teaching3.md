@@ -22,25 +22,25 @@ order: 3
 <div style = "display: grid; grid-template-columns: 350px 350px; grid-column-gap: 50px; row-gap: 5px; margin-left: 45px; align-items: end;">
     <div>
         <img style = "width: 350px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/potluck.png">
-        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Arial; ">
+        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Montserrat; ">
             <p>🥘 Staff Potluck</p>
         </div>
     </div>
      <div>
         <img style = "width: 350px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/students.png">
-        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Arial;">
+        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Montserrat;">
             <p>👨🏼‍🏫 My Tutor Supports and Students</p>
         </div>
     </div>
     <div>
         <img style = "width: 350px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/sunset.jpg">
-        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Arial; ">
+        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Montserrat; ">
             <p>🌇 Review Session Sunset</p>
         </div>
     </div>
     <div>
         <img style = "width: 350px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/taco.jpg">
-        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Arial;">
+        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Montserrat;">
             <p>🌮 Data 8 Taco Tuesday</p>
         </div>
     </div>
