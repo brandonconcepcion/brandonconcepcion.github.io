@@ -36,10 +36,9 @@ Outside of my own academics, I’m committed to empowering students to accomplis
 ## Current Positions: 
 * Lead Instructor for <a href = "https://www.data8.org/" target="_blank">DATA 8</a> (Grading Team)  
 * Modules Developer for <a href = "https://cdss.berkeley.edu/" target="_blank">CDSS</a>
-* Vice President for the <a href = "https://dssberkeley.com/" target="_blank">Data Science Society at Berkeley</a>
+* Project Manager for the <a href = "https://dssberkeley.com/" target="_blank">Data Science Society at Berkeley</a>
 
 ## What I'm Up To!
-* Watching Arcane Season 2 
-* Listening to Eminem and Conan Gray
+* Listening to Eminem
 
 
