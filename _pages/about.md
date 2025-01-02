@@ -39,6 +39,7 @@ Outside of my own academics, I’m committed to empowering students to accomplis
 * Project Manager for the <a href = "https://dssberkeley.com/" target="_blank">Data Science Society at Berkeley</a>
 
 ## What I'm Up To!
-* Listening to Eminem
+* Listening to Eminem and Laufey
+* Watching the X-men movies
 
 
