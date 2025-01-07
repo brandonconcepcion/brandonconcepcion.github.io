@@ -9,7 +9,7 @@ location: "Berkeley, California"
 order: 1
 ---
 
-* Course Materials for Fall 2024 can be found <a href = "https://linktr.ee/bingfa24" target = "_blank">here</a> and Student Evaluations coming soon!
+* Course Materials for Fall 2024 can be found <a href = "https://linktr.ee/bingfa24" target = "_blank">here</a> and Student Evaluations can be found <a href = "../files/Fa24_Evals.pdf" target = "_blank">here!</a>
 
 ### Other Responsibilities
 * Led my students to achieve the highest final exam scores among all student instructors
