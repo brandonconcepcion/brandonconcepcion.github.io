@@ -34,12 +34,13 @@ Outside of my own academics, I’m committed to empowering students to accomplis
 <a href="files/ConcepcionBrandon_Resume.pdf" class="linkedin-btn" target="_blank">My Resume!</a>
 
 ## Current Positions: 
-* Lead Instructor for <a href = "https://www.data8.org/" target="_blank">DATA 8</a> (Grading Team)  
+* Machine Learning Engineer for JamBase 
+* Web Developer for the <a href = "https://ispma.org/student-chapter-uc-berkeley/" target = "_blank">International Software Product Management Association at Berkeley </a>
+* Student Instructor for <a href = "https://www.data8.org/" target="_blank">DATA 8</a> (Grading Team)  
 * Modules Developer for <a href = "https://cdss.berkeley.edu/" target="_blank">CDSS</a>
-* Project Manager for the <a href = "https://dssberkeley.com/" target="_blank">Data Science Society at Berkeley</a>
 
 ## What I'm Up To!
-* Listening to Eminem and Laufey
-* Watching the X-men movies
+* Taking photographs of my friends
+* Doing my own thing
 
 
