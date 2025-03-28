@@ -1,7 +1,7 @@
 ---
 title: "Ants vs. Some Bees"
 excerpt: "<img style='border-radius:15px; width: 400px;' src='../images/ants.png'>"
-
+order: 5
 collection: portfolio
 ---
 

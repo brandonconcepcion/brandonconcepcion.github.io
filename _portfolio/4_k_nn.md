@@ -1,7 +1,7 @@
 ---
 title: "k-Nearest Neighbors From Scratch"
 excerpt: "<img style='border-radius:15px; width: 400px;' src='../images/k_nn.png'>"
-
+order: 4
 collection: portfolio
 ---
 

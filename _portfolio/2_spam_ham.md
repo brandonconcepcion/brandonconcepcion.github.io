@@ -1,7 +1,7 @@
 ---
 title: "To Spam, or Ham?"
 excerpt: "<img style='border-radius:15px; width: 400px;' src='../images/spam_ham.png'>"
-
+order: 2
 collection: portfolio
 ---
 
