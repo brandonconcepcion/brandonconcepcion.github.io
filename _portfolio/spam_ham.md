@@ -1,6 +1,6 @@
 ---
 title: "To Spam, or Ham?"
-excerpt: "<img style='border-radius:15px; width: 400px;' src='../images/spam.webp'>"
+excerpt: "<img style='border-radius:15px; width: 400px;' src='../images/spam_ham.png'>"
 
 collection: portfolio
 ---

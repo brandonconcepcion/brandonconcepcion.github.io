@@ -31,11 +31,13 @@ Hi! I'm Brandon Lee Concepcion, a current undergraduate third-year studying Data
 
 Outside of my own academics, I’m committed to empowering students to accomplish their personal and academic ambitions, ensuring that each of my students are well-equipped with the resources they need to succeed.
 
+My interests include Smiskis, Marvel Studios, the gym, and walking my dogs. 
+
 <a href="files/ConcepcionBrandon_Resume.pdf" class="linkedin-btn" target="_blank">My Resume!</a>
 
 ## Current Positions: 
-* Machine Learning Engineer for JamBase 
-* Web Developer for the <a href = "https://ispma.org/student-chapter-uc-berkeley/" target = "_blank">International Software Product Management Association at Berkeley </a>
+* Lead Machine Learning Engineer for JamBase 
+* Product Manager for the <a href = "https://ispma.org/student-chapter-uc-berkeley/" target = "_blank">International Software Product Management Association at Berkeley </a>
 * Student Instructor for <a href = "https://www.data8.org/" target="_blank">DATA 8</a> (Grading Team)  
 * Modules Developer for <a href = "https://cdss.berkeley.edu/" target="_blank">CDSS</a>
 
@@ -44,3 +46,4 @@ Outside of my own academics, I’m committed to empowering students to accomplis
 * Doing my own thing
 
 
+This website was last updated on Mar 27, 2025

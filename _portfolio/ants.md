@@ -1,6 +1,6 @@
 ---
-title: "The Colony Chronicles: Bee-Gone"
-excerpt: "<img style='border-radius:15px; width: 400px;' src='../images/ants.webp'>"
+title: "Ants vs. Some Bees"
+excerpt: "<img style='border-radius:15px; width: 400px;' src='../images/ants.png'>"
 
 collection: portfolio
 ---

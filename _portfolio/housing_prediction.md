@@ -1,6 +1,6 @@
 ---
-title: "Prophecy of Properties"
-excerpt: "<img style='border-radius:15px; width: 400px;' src='../images/house.webp'>"
+title: "Housing Price Prediction"
+excerpt: "<img style='border-radius:15px; width: 400px;' src='../images/prophecy_properties.png'>"
 
 collection: portfolio
 ---
