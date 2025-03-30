@@ -8,9 +8,8 @@ author_profile: true
 <style>
   .portfoliogrid{
     display: grid; 
-    grid-template-columns: 450px 450px;
-    grid-gap: 15px; 
-    row-gap: 10px;
+    grid-template-columns: 450px;
+    margin: 0px;
   }
 </style>
 
@@ -18,7 +17,7 @@ Welcome to my Portfolio! This is where I highlight some of the projects I've wor
 
 
 {% include base_path %}
-<div class = "portfoliogrid">
+<div>
 {% for post in site.portfolio %}
   {% include archive-single.html %}
 {% endfor %}

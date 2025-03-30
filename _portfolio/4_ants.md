@@ -1,9 +1,21 @@
 ---
 title: "Ants vs. Some Bees"
-excerpt: "<img style='border-radius:15px; width: 400px;' src='../images/ants.png'>"
-order: 5
 collection: portfolio
 ---
+
+* Utilized Object Oriented Programming to implement a Plants vs. Zombies inspired tower-defense game called <a href = "https://www.youtube.com/watch?v=noZKTQ23QBs" target = "_blank">Ants vs. Some Bees</a>
+
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius:15px; 
+}
+</style>
+
+<img class="center" src='../img/ants.png'>
 
 ## Description 
 * I Used Object Oriented Programming (OOP) to implement 13 defensive units for a tower defense game I call **Colony Chronicles: Bee Gone.** 

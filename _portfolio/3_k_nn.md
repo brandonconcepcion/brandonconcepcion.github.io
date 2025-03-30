@@ -1,9 +1,21 @@
 ---
 title: "k-Nearest Neighbors From Scratch"
-excerpt: "<img style='border-radius:15px; width: 400px;' src='../images/k_nn.png'>"
-order: 4
 collection: portfolio
 ---
+
+* Only using `NumPy`, I developed a k-Nearest Neighbors classifier to identify movies as Thriller / Comedy with 80% accuracy
+
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius:15px; 
+}
+</style>
+
+<img class="center" src='../img/k_nn.png'>
 
 ## Context 
 

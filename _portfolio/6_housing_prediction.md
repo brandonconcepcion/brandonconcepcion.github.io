@@ -1,9 +1,22 @@
 ---
 title: "Housing Price Prediction"
-excerpt: "<img style='border-radius:15px; width: 400px;' src='../images/prophecy_properties.png'>"
 order: 3
 collection: portfolio
 ---
+
+* Developed a linear regression model to predict housing prices in Cook County, Illinois
+
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius:15px; 
+}
+</style>
+
+<img class="center" src='../img/prophecy_properties.png'>
 
 ## Description 
 

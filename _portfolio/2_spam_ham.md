@@ -1,9 +1,21 @@
 ---
-title: "To Spam, or Ham?"
-excerpt: "<img style='border-radius:15px; width: 400px;' src='../images/spam_ham.png'>"
-order: 2
+title: "Spam Email Classification"
 collection: portfolio
 ---
+
+* Utilizied `Python`, `Pandas`, and `Sklearn` to build a classifier which identifies spam emails with 90% accuracy
+
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius:15px; 
+}
+</style>
+
+<img class="center" src='../img/spam_ham.png'>
 
 ## What do 'spam' and 'ham' mean? 
 * Spam (1) emails are unsolicited or bulk messages, often commercial in nature, while ham (0) emails are legitimate, non-spam communications.
