@@ -15,9 +15,8 @@ __[University of California, Berkeley](https://www.berkeley.edu/)__, Undergradua
 ======
 
 # Current Courses
- * <a href = "https://classes.berkeley.edu/content/2025-spring-compsci-184-001-lec-001" target = "_blank">COMPSCI 184: Computer Graphics</a>
- * <a href = "https://classes.berkeley.edu/content/2025-spring-compsci-189-001-lec-001" target = "_blank">COMPSCI 189: Introduction to Machine Learning</a>
-  * <a href = "https://classes.berkeley.edu/content/2025-spring-demog-c175-001-lec-001" target = "_blank">ECON 175: Economic Demography</a>
+ * <a href = "https://people.eecs.berkeley.edu/~jrs/189s25/" target = "_blank">COMPSCI 189: Introduction to Machine Learning</a>
+* <a href = "https://data101.org/sp25/" target = "_blank">DATA c101: Data Enginering</a>
 
 
 # [Data Science](https://cdss.berkeley.edu/dsus) [Major](https://cdss.berkeley.edu/dsus/academics/data-science-major) Courses

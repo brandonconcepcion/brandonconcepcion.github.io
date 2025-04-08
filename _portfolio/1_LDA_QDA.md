@@ -1,10 +1,10 @@
 ---
-title: "Linear + Quadratic Discriminant Analysis From Sratch"
+title: "Linear + Quadratic Discriminant Analysis (From Scratch)"
 # excerpt: "<img style='border-radius:15px; width: 200px;' src='../images/lda_qda.png'>"
 collection: portfolio
 ---
 
-* Only using `NumPy`, I developed a Quadratic Discriminant Analysis (QDA) classifier which identified handwritten digitis with 82% accuracy
+* Only using `NumPy`, I developed a Quadratic Discriminant Analysis (QDA) classifier which identified handwritten digits with 82% accuracy
 
 <style>
 .center {

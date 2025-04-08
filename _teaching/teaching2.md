@@ -1,45 +1,60 @@
 ---
-title: "Vice President, Data Science Society at Berkeley (Summer - Fall 2024)"
+title: "Undergraduate Student Instructor, DATA c8: Foundations of Data Science (Fall 2024)"
 collection: teaching
-type: "Undergraduate Course"
-permalink: /teaching/VP_Acadev
-venue: "Data Science Society at Berkeley"
-date: 2024-09-15
+type: "Undergraduate course"
+permalink: /teaching/fa24_12hr_ugsi
+venue: "University of California, Berkeley: College of Computing and Data Science"
+date: 2024-8-20
 location: "Berkeley, California"
 order: 2
 ---
 
-* Created the course website <a href = "https://dssdecal.org" target = "_blank">dssdecal.org</a> by utilizing Jekyll, Ruby, and Github Actions, and currently developing a 12-chapter introductory data science textbook at <a href = "https://dssdecal.org/textbook" target = "_blank">dssdecal.org/textbook</a>
+* Course Materials for Fall 2024 can be found <a href = "https://linktr.ee/bingfa24" target = "_blank">here</a> and Student Evaluations can be found <a href = "../files/Fa24_Evals.pdf" target = "_blank">here!</a>
 
 ### Other Responsibilities
-* Managing 16 Teaching Assistants and 12 tutors to operate the “An Introduction to Real World Data Science” course, promoting accessibility by hosting educational workshops from industry and academic leaders for the 70+ diverse students in the course
+* Led my students to achieve the highest final exam scores among all student instructors
+* I Added uGSI team <a href = "../images/Teaching/team_labels.png" target = "_blank">labels</a> and custom site <a href = "../images/Teaching/d8snowman.png" target = "_blank">logos</a> during the holiday season!
+* I made custom <a href = "../images/Teaching/hover_drawings.mp4" target = "_blank">drawings</a> of all TAs on staff, and used these in the hover photo feature
+
+### Photos
 
 
-## Photos
 
-<div style = "margin-top: 25px; display: grid; grid-template-columns: 400px 400px; grid-column-gap: 50px; row-gap: 5px; margin-left: 45px; align-items: end;">
+<div style = "display: grid; grid-template-columns: 350px 350px; grid-column-gap: 50px; row-gap: 5px; margin-left: 45px; align-items: end;">
     <div>
-        <img style = "width: 400px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/spacadev.jpg">
+        <img style = "width: 350px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/fa24_supports.png">
         <div  style = "display: flex; justify-content: center; width = 100%; font-family: Montserrat; ">
-            <p>🐤 Academic Development Committee</p>
+            <p>🔬 My lab supports Ishani and Bowie</p>
+        </div>
+    </div>
+    <div>
+        <img style = "width: 350px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/banquet.png">
+        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Montserrat;">
+            <p>🎅 Data 8 Secret Santa</p>
+        </div>
+    </div>
+    <div>
+        <img style = "width: 350px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/fa24_tas.png">
+        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Montserrat;">
+            <p>🏆 Data 8 Banquet </p>
         </div>
     </div>
      <div>
-        <img style = "width: 400px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/acadev_honshin.png">
+        <img style = "width: 350px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/spotted.png">
         <div  style = "display: flex; justify-content: center; width = 100%; font-family: Montserrat;">
-            <p>🗃️ Academic Development at Honshin!</p>
+            <p>📸 My Data 8 Superlative</p>
         </div>
     </div>
     <div>
-        <img style = "width: 400px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/firstlecture.JPG">
-        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Montserrat;">
-            <p>📊 Lecture on EDA with <a href = "https://www.linkedin.com/in/madhuri-suresh0404/" target = "_blank">Madhuri Suresh</a></p>
+        <img style = "width: 350px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/halloween.png">
+        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Montserrat; ">
+            <p>🎃 Halloween at Rory's</p>
         </div>
     </div>
     <div>
-        <img style = "width: 400px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/acadevmeeting.JPG">
+        <img style = "width: 350px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/WC_WP.png">
         <div  style = "display: flex; justify-content: center; width = 100%; font-family: Montserrat;">
-            <p>✅ First Academic Development Meeting</p>
+            <p>🚾 K1 Speed Racing!</p>
         </div>
     </div>
 </div>
