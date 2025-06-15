@@ -39,7 +39,7 @@ My interests include Smiskis, Marvel Studios, the gym, and walking my dogs.
 * Lead Data Scientist @ <a href = 'http://jambase.com/' target = "_blank">JamBase</a>
 * Product Manager for <a href = "https://ispma.org/student-chapter-uc-berkeley/" target = "_blank">Software Products at Cal</a>
 * Student Instructor for <a href = "https://www.data8.org/" target="_blank">DATA C8: Foundations of Data Science</a> (Grading Team)  
-* Software Engineer for <a href = "https://cdss.berkeley.edu/" target="_blank">The College of Computing and Data Science Society</a>
+* Software Developer for <a href = "https://cdss.berkeley.edu/" target="_blank">The College of Computing and Data Science Society</a>
 
 ## What I'm Up To!
 * Taking photographs of my friends
