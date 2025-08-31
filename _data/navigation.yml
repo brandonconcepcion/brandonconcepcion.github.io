@@ -5,15 +5,17 @@
 # prevent it from being included in the site.
 
 main:
+  - title: "Experiences"
+    url: /experiences/
+
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/
 
   - title: "Coursework"
-    url: /coursework/    
-    
+    url: /coursework/
+
   - title: "Portfolio"
     url: /portfolio/
 
   - title: "Acknowledgements"
     url: /acknowledgements.html/
-    
