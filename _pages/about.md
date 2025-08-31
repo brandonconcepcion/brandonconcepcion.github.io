@@ -27,9 +27,9 @@ redirect_from:
 }
 </style>
 
-Hi! I'm Brandon Lee Concepcion, a current undergraduate fourth-year studying Data Science and Computer Science at the University of California, Berkeley.
+Hi! I'm Brandon Lee Concepcion, a current undergraduate third-year studying Data Science and Computer Science at the University of California, Berkeley.
 
-Outside of my own academics, I’m committed to empowering students to accomplish their personal and academic ambitions, ensuring that each of my students are well-equipped with the resources they need to succeed.
+Outside of my own academics, I'm committed to empowering students to accomplish their personal and academic ambitions, ensuring that each of my students are well-equipped with the resources they need to succeed.
 
 My interests include Smiskis, Marvel Studios, the gym, and walking my dogs.
 
@@ -40,4 +40,8 @@ My interests include Smiskis, Marvel Studios, the gym, and walking my dogs.
 - Taking photographs of my friends
 - Doing my own thing
 
-This website was last updated on Aug 31, 2025
+## 🎵 My Music Vibes
+
+{% include spotify-integration.html %}
+
+This website was last updated on Mar 30, 2025

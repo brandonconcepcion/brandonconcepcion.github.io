@@ -1,45 +1,55 @@
 ---
-title: "Vice President, Data Science Society at Berkeley (Summer - Fall 2024)"
+title: "Undergraduate Student Instructor, DATA c8: Foundations of Data Science (Spring 2025)"
 collection: teaching
-type: "Undergraduate Course"
-permalink: /teaching/VP_Acadev
-venue: "Data Science Society at Berkeley"
-date: 2024-09-15
+type: "Undergraduate course"
+permalink: /teaching/sp25_12hr_ugsi
+venue: "University of California, Berkeley: College of Computing and Data Science"
+date: 2025-01-25
 location: "Berkeley, California"
 order: 3
 ---
 
-* Created the course website <a href = "https://dssdecal.org" target = "_blank">dssdecal.org</a> by utilizing Jekyll, Ruby, and Github Actions, and currently developing a 12-chapter introductory data science textbook at <a href = "https://dssdecal.org/textbook" target = "_blank">dssdecal.org/textbook</a>
+* Course Materials for Summer 2025 can be found <a href = "https://linktr.ee/bingsp25" target = "_blank">here</a>
 
 ### Other Responsibilities
-* Managing 16 Teaching Assistants and 12 tutors to operate the “An Introduction to Real World Data Science” course, promoting accessibility by hosting educational workshops from industry and academic leaders for the 70+ diverse students in the course
+* Collaborated with <a href = "https://www.linkedin.com/in/aileeenwu/" target = "_blank">Aileen Wu</a> to manage Data 8's grading infrastructure
 
-
-## Photos
-
-<div style = "margin-top: 25px; display: grid; grid-template-columns: 400px 400px; grid-column-gap: 50px; row-gap: 5px; margin-left: 45px; align-items: end;">
+### Photos
+<div style = "display: grid; grid-template-columns: 350px 350px; grid-column-gap: 50px; row-gap: 5px; margin-left: 45px; align-items: end;">
     <div>
-        <img style = "width: 400px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/spacadev.jpg">
-        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Montserrat; ">
-            <p>🐤 Academic Development Committee</p>
+        <img style = "width: 350px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/prof_adhikari_lecture.png">
+        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Montserrat ">
+            <p>👩‍🏫 Visiting Professor Adhikari's lecture!</p>
+        </div>
+    </div>
+    <div>
+        <img style = "width: 350px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/brandon_2.png">
+        <div  style = "display: flex; justify-content: center; width = 100%; ">
+            <p>🧊 Brandon Squared!</p>
+        </div>
+    </div>
+    <div>
+        <img style = "width: 350px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/michael_GOATS.png">
+        <div  style = "display: flex; justify-content: center; width = 100%; ">
+            <p>🐐 Isaac and I with the GOAT</p>
+        </div>
+    </div>
+    <div>
+        <img style = "width: 350px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/tahoe_data8.jpg">
+        <div  style = "display: flex; justify-content: center; width = 100%; ">
+            <p>🍨 Data 8 gets Ice Cream in Tahoe</p>
         </div>
     </div>
      <div>
-        <img style = "width: 400px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/acadev_honshin.png">
-        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Montserrat;">
-            <p>🗃️ Academic Development at Honshin!</p>
+        <img style = "width: 350px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/cds.jpg">
+        <div  style = "display: flex; justify-content: center; width = 100%; ">
+            <p>🎓 Photoshoot w/ Ramisha and Thomas</p>
         </div>
     </div>
     <div>
-        <img style = "width: 400px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/firstlecture.JPG">
-        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Montserrat;">
-            <p>📊 Lecture on EDA with <a href = "https://www.linkedin.com/in/madhuri-suresh0404/" target = "_blank">Madhuri Suresh</a></p>
-        </div>
-    </div>
-    <div>
-        <img style = "width: 400px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/acadevmeeting.JPG">
-        <div  style = "display: flex; justify-content: center; width = 100%; font-family: Montserrat;">
-            <p>✅ First Academic Development Meeting</p>
+        <img style = "width: 350px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/midterm_review.jpeg">
+        <div  style = "display: flex; justify-content: center; width = 100%; ">
+            <p>🏠 Dinner after midterm review session!</p>
         </div>
     </div>
 </div>

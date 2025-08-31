@@ -1,0 +1,310 @@
+<div class="spotify-section">
+  <div class="spotify-header">
+    <span class="spotify-icon">🎵</span>
+    <h2>My Music Trends</h2>
+    <div class="last-updated" id="last-updated"></div>
+  </div>
+  
+  <div id="spotify-content">
+    <div class="spotify-loading">
+      <p>Connect your Spotify to see your personal music trends!</p>
+      <button class="connect-spotify-btn" onclick="connectSpotify()">
+        🎵 Connect Spotify
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+// Spotify API Configuration - Load from config file
+const SPOTIFY_CONFIG = {
+  CLIENT_ID: '{{ site.spotify.client_id | default: "a94806b52ab7410db600967c30235d8a" }}',
+  REDIRECT_URI: '{{ site.spotify.redirect_uri | default: "http://localhost:4000" }}',
+  SCOPES: '{{ site.spotify.scopes | default: "user-top-read user-read-recently-played" }}'
+};
+
+// Spotify API endpoints
+const SPOTIFY_API_BASE = 'https://api.spotify.com/v1';
+
+// Auto-refresh settings
+const AUTO_REFRESH_INTERVAL = 7 * 24 * 60 * 60 * 1000; // 7 days in milliseconds
+const LAST_UPDATE_KEY = 'spotify_last_update';
+const MUSIC_DATA_KEY = 'spotify_music_data';
+
+// Check if user is authenticated
+function checkAuth() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const code = urlParams.get('code');
+  
+  if (code) {
+    // Exchange code for access token
+    exchangeCodeForToken(code);
+  } else {
+    // Check if we have a stored token
+    const token = localStorage.getItem('spotify_token');
+    if (token) {
+      checkAndLoadMusicStats(token);
+    } else {
+      showConnectButton();
+    }
+  }
+}
+
+// Check if we need to refresh data and load accordingly
+function checkAndLoadMusicStats(token) {
+  const lastUpdate = localStorage.getItem(LAST_UPDATE_KEY);
+  const now = Date.now();
+  
+  // Check if we have cached data and if it's still fresh
+  const cachedData = localStorage.getItem(MUSIC_DATA_KEY);
+  
+  if (lastUpdate && cachedData && (now - parseInt(lastUpdate)) < AUTO_REFRESH_INTERVAL) {
+    // Use cached data if it's less than 7 days old
+    const data = JSON.parse(cachedData);
+    displayMusicStats(data.topTracks, data.recentTracks);
+    updateLastUpdatedDisplay(parseInt(lastUpdate));
+  } else {
+    // Fetch fresh data
+    loadMusicStats(token);
+  }
+}
+
+// Exchange authorization code for access token
+async function exchangeCodeForToken(code) {
+  try {
+    const response = await fetch('/api/spotify-token', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ 
+        code, 
+        redirect_uri: SPOTIFY_CONFIG.REDIRECT_URI,
+        client_id: SPOTIFY_CONFIG.CLIENT_ID
+      })
+    });
+    
+    const data = await response.json();
+    
+    if (data.access_token) {
+      localStorage.setItem('spotify_token', data.access_token);
+      loadMusicStats(data.access_token);
+    } else {
+      showError('Failed to authenticate with Spotify');
+    }
+  } catch (error) {
+    console.error('Error exchanging code for token:', error);
+    showError('Failed to connect to Spotify');
+  }
+}
+
+// Load music statistics
+async function loadMusicStats(token) {
+  try {
+    const contentDiv = document.getElementById('spotify-content');
+    contentDiv.innerHTML = '<div class="spotify-loading"><p>Loading your music stats...</p></div>';
+    
+    // Get top tracks (last 3 months)
+    const topTracksResponse = await fetch(`${SPOTIFY_API_BASE}/me/top/tracks?limit=10&time_range=short_term`, {
+      headers: {
+        'Authorization': `Bearer ${token}`
+      }
+    });
+    
+    const topTracks = await topTracksResponse.json();
+    
+    // Get recently played
+    const recentResponse = await fetch(`${SPOTIFY_API_BASE}/me/player/recently-played?limit=5`, {
+      headers: {
+        'Authorization': `Bearer ${token}`
+      }
+    });
+    
+    const recentTracks = await recentResponse.json();
+    
+    // Cache the data and update timestamp
+    const dataToCache = {
+      topTracks: topTracks.items,
+      recentTracks: recentTracks.items
+    };
+    
+    localStorage.setItem(MUSIC_DATA_KEY, JSON.stringify(dataToCache));
+    localStorage.setItem(LAST_UPDATE_KEY, Date.now().toString());
+    
+    // Display the data
+    displayMusicStats(topTracks.items, recentTracks.items);
+    updateLastUpdatedDisplay(Date.now());
+    
+  } catch (error) {
+    console.error('Error loading music stats:', error);
+    showError('Failed to load music statistics');
+  }
+}
+
+// Update the "last updated" display
+function updateLastUpdatedDisplay(timestamp) {
+  const lastUpdatedDiv = document.getElementById('last-updated');
+  if (lastUpdatedDiv) {
+    const date = new Date(timestamp);
+    const timeAgo = getTimeAgo(timestamp);
+    lastUpdatedDiv.innerHTML = `<small>🕒 Last updated: ${timeAgo}</small>`;
+  }
+}
+
+// Get human-readable time ago
+function getTimeAgo(timestamp) {
+  const now = Date.now();
+  const diff = now - timestamp;
+  
+  const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+  
+  if (days > 0) {
+    return `${days} day${days > 1 ? 's' : ''} ago`;
+  } else if (hours > 0) {
+    return `${hours} hour${hours > 1 ? 's' : ''} ago`;
+  } else if (minutes > 0) {
+    return `${minutes} minute${minutes > 1 ? 's' : ''} ago`;
+  } else {
+    return 'Just now';
+  }
+}
+
+// Display music statistics
+function displayMusicStats(topTracks, recentTracks) {
+  const contentDiv = document.getElementById('spotify-content');
+  
+  // Calculate some stats
+  const uniqueArtists = new Set(topTracks.map(track => track.artists[0].name)).size;
+  const totalPlays = topTracks.length;
+  
+  contentDiv.innerHTML = `
+    <div class="music-stats">
+      <div class="stat-card">
+        <div class="stat-number">${topTracks.length}</div>
+        <div class="stat-label">Top Tracks</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">${uniqueArtists}</div>
+        <div class="stat-label">Unique Artists</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">${recentTracks.length}</div>
+        <div class="stat-label">Recently Played</div>
+      </div>
+    </div>
+    
+    <div class="top-tracks">
+      <h3>🎵 Your Top Tracks (Last 3 Months)</h3>
+      ${topTracks.map((track, index) => `
+        <div class="track-item">
+          <div class="track-number">${index + 1}</div>
+          <img src="${track.album.images[2]?.url || ''}" alt="${track.name}" class="track-image">
+          <div class="track-info">
+            <div class="track-name">${track.name}</div>
+            <div class="track-artist">${track.artists[0].name}</div>
+          </div>
+        </div>
+      `).join('')}
+    </div>
+    
+    <div class="recent-tracks">
+      <h3>🎧 Recently Played</h3>
+      ${recentTracks.map((item, index) => `
+        <div class="track-item">
+          <div class="track-number">${index + 1}</div>
+          <img src="${item.track.album.images[2]?.url || ''}" alt="${item.track.name}" class="track-image">
+          <div class="track-info">
+            <div class="track-name">${item.track.name}</div>
+            <div class="track-artist">${item.track.artists[0].name}</div>
+          </div>
+        </div>
+      `).join('')}
+    </div>
+    
+    <div class="refresh-controls">
+      <button class="connect-spotify-btn" onclick="refreshStats()">
+        🔄 Refresh Now
+      </button>
+      <button class="connect-spotify-btn secondary" onclick="clearCache()">
+        🗑️ Clear Cache
+      </button>
+    </div>
+  `;
+}
+
+// Connect to Spotify
+function connectSpotify() {
+  const authUrl = `https://accounts.spotify.com/authorize?client_id=${SPOTIFY_CONFIG.CLIENT_ID}&response_type=code&redirect_uri=${encodeURIComponent(SPOTIFY_CONFIG.REDIRECT_URI)}&scope=${encodeURIComponent(SPOTIFY_CONFIG.SCOPES)}`;
+  window.location.href = authUrl;
+}
+
+// Refresh stats
+function refreshStats() {
+  const token = localStorage.getItem('spotify_token');
+  if (token) {
+    loadMusicStats(token);
+  } else {
+    connectSpotify();
+  }
+}
+
+// Clear cache and force refresh
+function clearCache() {
+  localStorage.removeItem(MUSIC_DATA_KEY);
+  localStorage.removeItem(LAST_UPDATE_KEY);
+  refreshStats();
+}
+
+// Show connect button
+function showConnectButton() {
+  const contentDiv = document.getElementById('spotify-content');
+  contentDiv.innerHTML = `
+    <div style="text-align: center;">
+      <p>Connect your Spotify account to see your personal music trends!</p>
+      <button class="connect-spotify-btn" onclick="connectSpotify()">
+        🎵 Connect Spotify
+      </button>
+    </div>
+  `;
+}
+
+// Show error
+function showError(message) {
+  const contentDiv = document.getElementById('spotify-content');
+  contentDiv.innerHTML = `
+    <div class="spotify-error">
+      <p>${message}</p>
+      <button class="connect-spotify-btn" onclick="connectSpotify()">
+        Try Again
+      </button>
+    </div>
+  `;
+}
+
+// Set up auto-refresh timer
+function setupAutoRefresh() {
+  const lastUpdate = localStorage.getItem(LAST_UPDATE_KEY);
+  if (lastUpdate) {
+    const timeUntilRefresh = AUTO_REFRESH_INTERVAL - (Date.now() - parseInt(lastUpdate));
+    
+    if (timeUntilRefresh > 0) {
+      // Set timer for next auto-refresh
+      setTimeout(() => {
+        const token = localStorage.getItem('spotify_token');
+        if (token) {
+          console.log('🔄 Auto-refreshing Spotify data...');
+          loadMusicStats(token);
+        }
+      }, timeUntilRefresh);
+    }
+  }
+}
+
+// Initialize when page loads
+document.addEventListener('DOMContentLoaded', function() {
+  checkAuth();
+  setupAutoRefresh();
+});
+</script>
