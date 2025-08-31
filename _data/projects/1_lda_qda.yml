@@ -1,6 +1,6 @@
 title: "Linear + Quadratic Discriminant Analysis"
 icon: "📊"
-summary: "Implemented LDA and QDA classifiers from scratch using only NumPy.""
+summary: "Implemented LDA and QDA classifiers from scratch using only NumPy."
 url: "/portfolio/1_LDA_QDA/"
 categories: ["Machine Learning"]
 highlights:
