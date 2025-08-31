@@ -291,7 +291,7 @@ author_profile: true
     <div class="timeline-item">
       <div class="timeline-header" onclick="toggleTimeline(this)">
         <div class="company-logo">
-          <span>🎵</span>
+          <span>🦊</span>
         </div>
         <div class="timeline-info">
           <h3 class="timeline-title">Machine Learning Intern</h3>
