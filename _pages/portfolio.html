@@ -6,20 +6,188 @@ author_profile: true
 ---
 
 <style>
-  .portfoliogrid{
-    display: grid; 
-    grid-template-columns: 450px;
-    margin: 0px;
+/* Modern portfolio grid styling */
+.portfolio-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 2rem 2rem 0;
+}
+
+/* Project grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Project cards */
+.project-card {
+  background: #faf9f6;
+  border: 1px solid #e8e6e1;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.project-card:hover {
+  box-shadow: 0 12px 30px rgba(176, 137, 104, 0.15);
+  transform: translateY(-4px);
+  border-color: #d4a574;
+}
+
+/* Project header (always visible) */
+.project-header {
+  padding: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: #fefefe;
+  transition: all 0.3s ease;
+}
+
+.project-header:hover {
+  background: #f8f7f4;
+}
+
+.project-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  background: white;
+  border: 2px solid #e8e6e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 1.5rem;
+  color: #8b7355;
+  transition: all 0.3s ease;
+}
+
+.project-icon:hover {
+  border-color: #d4a574;
+  transform: scale(1.05);
+}
+
+.project-info {
+  flex: 1;
+}
+
+.project-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2d2d2d;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+.project-summary {
+  color: #4a4a4a;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.project-meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: #6b6b6b;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.project-category {
+  background: #f0ede8;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  color: #8b7355;
+  font-weight: 500;
+  border: 1px solid #d4a574;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .portfolio-container {
+    padding: 1rem;
   }
+  
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .project-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .project-meta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Portfolio header */
+.portfolio-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, #faf9f6 0%, #f5f3f0 100%);
+  border-radius: 16px;
+  border: 1px solid #e8e6e1;
+}
+
+.portfolio-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2d2d2d;
+  margin-bottom: 1rem;
+}
+
+.portfolio-subtitle {
+  font-size: 1.1rem;
+  color: #6b6b6b;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+}
 </style>
 
-Welcome to my Portfolio! This is where I highlight some of the projects I've worked on.
+<div class="portfolio-container">
+  <div class="portfolio-header">
+    <h1 class="portfolio-title">🚀 My Projects</h1>
+    <p class="portfolio-subtitle">
+      A collection of my coolest projects showcasing machine learning, data science, and software development skills. 
+      Click on any project to view the full details.
+    </p>
+  </div>
 
-
-{% include base_path %}
-<div>
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+  <div class="projects-grid">
+    {% for project in site.data.portfolio_projects %}
+      <div class="project-card">
+        <div class="project-header" onclick="window.location.href='{{ project.url }}'">
+          <div class="project-icon">
+            {{ project.icon }}
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">{{ project.title }}</h3>
+            <p class="project-summary">{{ project.summary }}</p>
+            <div class="project-meta">
+              <div>
+                {% for category in project.categories %}
+                  <span class="project-category">{{ category }}</span>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 </div>
 

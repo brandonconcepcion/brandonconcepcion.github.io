@@ -1,0 +1,105 @@
+- title: "Linear + Quadratic Discriminant Analysis"
+  icon: "📊"
+  summary: "Implemented LDA and QDA classifiers from scratch using only NumPy."
+  url: "/portfolio/1_LDA_QDA/"
+  categories: ["Machine Learning"]
+  highlights:
+    - "Built both LDA and QDA classifiers using only NumPy and sklearn's train_test_split"
+    - "Achieved 82% accuracy on MNIST handwritten digit classification"
+    - "Implemented from scratch without using pre-built classification libraries"
+    - "Analyzed error patterns and decision boundaries for both algorithms"
+  tech_stack:
+    - "Python"
+    - "NumPy"
+    - "Scikit-learn"
+    - "MNIST Dataset"
+    - "Linear Algebra"
+    - "Classification"
+
+- title: "Random Forest Classifier"
+  icon: "🌳"
+  summary: "Built a Random Forest classifier from scratch using NumPy and SciPy."
+  url: "/portfolio/2_RF/"
+  categories: ["Ensemble Methods"]
+  highlights:
+    - "Implemented Random Forest algorithm from scratch using NumPy and SciPy"
+    - "Achieved 80% accuracy on Titanic survival prediction"
+    - "Applied same classifier to spam email detection with 80% accuracy"
+    - "Used entropy as the purity function for optimal tree splitting"
+    - "Analyzed decision tree structures and validation accuracy patterns"
+  tech_stack:
+    - "Python"
+    - "NumPy"
+    - "SciPy"
+    - "Decision Trees"
+    - "Ensemble Methods"
+    - "Entropy"
+
+- title: "K-Nearest Neighbors"
+  icon: "🎯"
+  summary: "Implemented K-Nearest Neighbors algorithm for pattern recognition and classification tasks."
+  url: "/portfolio/4_k_nn/"
+  categories: ["Classification", "K-NN"]
+  highlights:
+    - "Built K-NN classifier from scratch using NumPy"
+    - "Implemented multiple distance metrics (Euclidean, Manhattan, Cosine)"
+    - "Optimized k-value selection using cross-validation"
+    - "Applied to various classification and regression problems"
+  tech_stack:
+    - "Python"
+    - "NumPy"
+    - "K-Nearest Neighbors"
+    - "Distance Metrics"
+    - "Cross-Validation"
+
+- title: "Spam vs Ham Classification"
+  icon: "🛡️"
+  summary: "Developed an email classification system to distinguish between spam and legitimate emails."
+  url: "/portfolio/3_spam_ham/"
+  categories: ["ML"]
+  highlights:
+    - "Implemented text preprocessing and feature extraction"
+    - "Used TF-IDF vectorization for text representation"
+    - "Applied multiple ML algorithms for comparison"
+    - "Achieved high accuracy in spam detection"
+  tech_stack:
+    - "Python"
+    - "NLP"
+    - "TF-IDF"
+    - "Text Classification"
+    - "Scikit-learn"
+
+- title: "Housing Price Prediction"
+  icon: "🏠"
+  summary: "Built a housing price prediction model using regression techniques."
+  url: "/portfolio/5_housing_prediction/"
+  categories: ["Regression", "Data Analysis"]
+  highlights:
+    - "Conducted comprehensive data exploration and visualization"
+    - "Implemented feature engineering and selection techniques"
+    - "Used multiple regression algorithms for comparison"
+    - "Optimized hyperparameters for best performance"
+  tech_stack:
+    - "Python"
+    - "Pandas"
+    - "Scikit-learn"
+    - "Regression"
+    - "Feature Engineering"
+    - "Data Visualization"
+
+- title: "Ant Colony Simulation"
+  icon: "🐜"
+  summary: "Created a tower defense game called Ants vs. Some Bees."
+  url: "/portfolio/7_ants/"
+  categories: ["OOP"]
+  highlights:
+    - "Built agent-based simulation from scratch"
+    - "Implemented pheromone trail mechanisms"
+    - "Studied emergent behavior patterns"
+    - "Applied to optimization problems"
+  tech_stack:
+    - "Python"
+    - "Simulation"
+    - "Agent-Based Modeling"
+    - "Optimization"
+    - "Emergent Behavior"
