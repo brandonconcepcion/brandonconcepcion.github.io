@@ -6,3 +6,6 @@ local/
 
 # Ignore the Gemfile that is generated
 Gemfile.lock
+
+# Ignore backup config files
+_config.yml.backup
