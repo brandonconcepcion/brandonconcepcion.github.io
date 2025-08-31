@@ -40,8 +40,4 @@ My interests include Smiskis, Marvel Studios, the gym, and walking my dogs.
 - Taking photographs of my friends
 - Doing my own thing
 
-## 🎵 My Music Vibes
-
-{% include spotify-integration.html %}
-
 This website was last updated on Mar 30, 2025

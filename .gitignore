@@ -6,17 +6,3 @@ local/
 
 # Ignore the Gemfile that is generated
 Gemfile.lock
-
-# Ingore files created by npm
-node_modules
-package-lock.json
-
-# Environment and configuration files
-.env
-.env.local
-.env.production
-_config_spotify.yml
-
-# API keys and secrets
-api-keys.json
-secrets.json
