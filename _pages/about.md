@@ -33,7 +33,7 @@ Outside of my own academics, I'm committed to empowering students to accomplish 
 
 My interests include Smiskis, Marvel Studios, the gym, and walking my dogs.
 
-<a href="files/Concepcion_Brandon_Resume.pdf" class="linkedin-btn" target="_blank">My Resume!</a>
+<a href="files/resume.pdf" class="linkedin-btn" target="_blank">My Resume!</a>
 
 ## What I'm Up To!
 

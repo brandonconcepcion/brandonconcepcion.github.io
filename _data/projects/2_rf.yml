@@ -1,0 +1,18 @@
+title: "Random Forest Classifier"
+icon: "🌳"
+summary: "Built a Random Forest classifier from scratch using NumPy and SciPy."
+url: "/portfolio/2_RF/"
+categories: ["Machine Learning"]
+highlights:
+  - "Implemented Random Forest algorithm from scratch using NumPy and SciPy"
+  - "Achieved 80% accuracy on Titanic survival prediction"
+  - "Applied same classifier to spam email detection with 80% accuracy"
+  - "Used entropy as the purity function for optimal tree splitting"
+  - "Analyzed decision tree structures and validation accuracy patterns"
+tech_stack:
+  - "Python"
+  - "NumPy"
+  - "SciPy"
+  - "Decision Trees"
+  - "Ensemble Methods"
+  - "Entropy"

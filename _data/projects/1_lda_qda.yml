@@ -1,0 +1,17 @@
+title: "Linear + Quadratic Discriminant Analysis"
+icon: "📊"
+summary: "Implemented LDA and QDA classifiers from scratch using only NumPy.""
+url: "/portfolio/1_LDA_QDA/"
+categories: ["Machine Learning"]
+highlights:
+  - "Built both LDA and QDA classifiers using only NumPy and sklearn's train_test_split"
+  - "Achieved 82% accuracy on MNIST handwritten digit classification"
+  - "Implemented from scratch without using pre-built classification libraries"
+  - "Analyzed error patterns and decision boundaries for both algorithms"
+tech_stack:
+  - "Python"
+  - "NumPy"
+  - "Scikit-learn"
+  - "MNIST Dataset"
+  - "Linear Algebra"
+  - "Classification"
