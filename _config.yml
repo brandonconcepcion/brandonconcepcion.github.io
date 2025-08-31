@@ -12,7 +12,7 @@ title: "Brandon Concepcion"
 title_separator: "-"
 name: &name "Brandon Lee Concepcion"
 description: &description "personal description"
-url: "" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://brandonconcepcion.com" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "brandonconcepcion/brandonconcepcion.github.io"
 
