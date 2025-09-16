@@ -291,6 +291,39 @@ author_profile: true
     <div class="timeline-item">
       <div class="timeline-header" onclick="toggleTimeline(this)">
         <div class="company-logo">
+          <span>🏗️</span>
+        </div>
+        <div class="timeline-info">
+          <h3 class="timeline-title">Incoming</h3>
+          <p class="timeline-company">Databricks</p>
+          <div class="timeline-meta">
+            <span class="timeline-date">Sep. 2025 - Dec. 2025</span>
+            <span class="timeline-location">📍 San Francisco</span>
+          </div>
+        </div>
+        <div class="timeline-toggle">+</div>
+      </div>
+      <div class="timeline-content">
+        <div class="timeline-details">
+          <ul class="timeline-achievements">
+            <li>Excited to join the Databricks team to work on cutting-edge data science and machine learning projects</li>
+            <li>Will be contributing to scalable data processing and analytics solutions using the Databricks platform</li>
+            <li>Looking forward to gaining hands-on experience with big data technologies and cloud computing</li>
+          </ul>
+          <div class="timeline-skills">
+            <span class="skill-tag">Data Science</span>
+            <span class="skill-tag">Machine Learning</span>
+            <span class="skill-tag">Big Data</span>
+            <span class="skill-tag">Cloud Computing</span>
+            <span class="skill-tag">Python</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-header" onclick="toggleTimeline(this)">
+        <div class="company-logo">
           <span>🦊</span>
         </div>
         <div class="timeline-info">
