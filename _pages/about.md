@@ -40,4 +40,4 @@ My interests include Smiskis, Marvel Studios, the gym, and walking my dogs.
 - Taking photographs of my friends
 - Doing my own thing
 
-This website was last updated on Mar 30, 2025
+This website was last updated on Sep 15, 2025
