@@ -15,15 +15,16 @@ __[University of California, Berkeley](https://www.berkeley.edu/)__, Undergradua
 ======
 
 # Current Courses
- * <a href = "https://people.eecs.berkeley.edu/~jrs/189s25/" target = "_blank">COMPSCI 189: Introduction to Machine Learning</a>
-* <a href = "https://data101.org/sp25/" target = "_blank">DATA c101: Data Enginering</a>
+
 
 
 # [Data Science](https://cdss.berkeley.edu/dsus) [Major](https://cdss.berkeley.edu/dsus/academics/data-science-major) Courses
 * <a href = "https://cs61a.org/" target = "_blank">COMPSCI 61A: Structure and Interpretation of Computer Programs</a>
 * <a href = "https://fa23.datastructur.es/" target = "_blank">COMPSCI 61B: Data Structures and Algorithms</a>
+ * <a href = "https://people.eecs.berkeley.edu/~jrs/189s25/" target = "_blank">COMPSCI 189: Introduction to Machine Learning</a>
 * <a href = "http://www.data8.org/fa22/" target = "_blank">DATA c8: Foundations of Data Science</a> 🌠
 * <a href = "https://ds100.org" target = "_blank">DATA 100: Principles and Techniques of Data Science</a> 🌠
+* <a href = "https://data101.org/sp25/" target = "_blank">DATA c101: Data Enginering</a>
 * <a href = "http://prob140.org/" target = "_blank">DATA 140: Probability for Data Science</a> 🌠 
 * <a href = "https://sites.google.com/berkeley.edu/dighum-100/home?pli=1" target = "_blank">DIGHUM 100: Theory and Methods in the Digital Humanities</a>
 * <a href = "https://classes.berkeley.edu/content/2024-fall-indeng-142a-1-lec-1" target = "_blank">INDENG 142A: Introduction to Machine Learning and Data Analytics</a> 

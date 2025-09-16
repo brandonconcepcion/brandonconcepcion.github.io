@@ -9,7 +9,7 @@ location: "Berkeley, California"
 order: 3
 ---
 
-* Course Materials for Summer 2025 can be found <a href = "https://linktr.ee/bingsp25" target = "_blank">here</a>
+* Course Materials for Spring 2025 can be found <a href = "https://linktr.ee/bingsp25" target = "_blank">here</a>
 
 ### Other Responsibilities
 * Collaborated with <a href = "https://www.linkedin.com/in/aileeenwu/" target = "_blank">Aileen Wu</a> to manage Data 8's grading infrastructure

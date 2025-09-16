@@ -9,7 +9,7 @@ location: "Berkeley, California"
 order: 1
 ---
 
-* Course Materials for Spring 2025 can be found <a href = "https://linktr.ee/bingsp25" target = "_blank">here</a>
+* Course Materials for Fall 2025 can be found <a href = "https://drive.google.com/drive/folders/1nLVgSESoVkzklz3lr7OH83Vg8AUqOB_a?usp=sharing" target = "_blank">here</a>
 
 ### Other Responsibilities
 * Managing course infrastructure!
