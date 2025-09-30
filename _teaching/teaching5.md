@@ -27,7 +27,7 @@ order: 5
      <div>
         <img style = "width: 400px; border-radius: 25px; margin-bottom: 10px; box-shadow: 7px 6px 15px rgb(0,0,0,0.45);" src = "../images/Teaching/acadev_honshin.png">
         <div  style = "display: flex; justify-content: center; width = 100%; font-family: Montserrat;">
-            <p>🗃️ Academic Development at Honshin!</p>
+            <p>🗃️ Academic Development at Hanshin!</p>
         </div>
     </div>
     <div>
