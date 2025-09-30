@@ -64,10 +64,12 @@ author_profile: false
   <div class="main-content">
     <!-- Header Section -->
     <div class="experiences-header">
-      <div class="experiences-album-cover"></div>
+      <div class="experiences-album-cover">
+        <img src="/images/profile.png" alt="Brandon Concepcion" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+      </div>
       <div class="playlist-info">
         <div class="playlist-type">Playlist</div>
-        <h1>My Experiences</h1>
+        <h1>Professional Experiences</h1>
         <div class="playlist-description">Brandon • 4 experiences</div>
       </div>
     </div>
@@ -76,7 +78,7 @@ author_profile: false
     <div class="controls-section">
       <button class="play-button">▶</button>
       <button class="control-button">🔀</button>
-      <button class="control-button">⬇</button>
+      <a href="/files/resume.pdf" download="Brandon_Concepcion_Resume.pdf" class="control-button">⬇</a>
       <button class="control-button">☰</button>
     </div>
 
@@ -87,63 +89,103 @@ author_profile: false
         <div>Title</div>
         <div>Company</div>
         <div>Date Added</div>
-        <div></div>
+        <div>Date Ended</div>
       </div>
 
       <div class="song-item">
         <div class="song-number">1</div>
         <div class="song-info">
-          <div class="album-art">🏗️</div>
+          <div class="album-art">
+            <img src="/images/experiences/databricks.png" alt="Databricks" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
+          </div>
           <div class="song-details">
-            <h4>Incoming Data Science Intern</h4>
-            <p>Financial LLM Agent Development</p>
+            <h4>AI Consultant</h4>
+            <p>Agentic AI Applications</p>
           </div>
         </div>
         <div class="song-company">Databricks</div>
         <div class="song-date">Sep. 2025</div>
-        <div class="song-duration">4 mo</div>
+        <div class="song-duration">Jan. 2026</div>
       </div>
 
       <div class="song-item">
         <div class="song-number">2</div>
         <div class="song-info">
-          <div class="album-art">🦊</div>
+          <div class="album-art">
+            <img src="/images/experiences/oracle.png" alt="Oracle" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
+          </div>
           <div class="song-details">
-            <h4>Machine Learning Engineer</h4>
-            <p>AI-Powered Trading Platform Development</p>
+            <h4>AI Product Consultant</h4>
+            <p>Agentic AI Applications</p>
           </div>
         </div>
-        <div class="song-company">ZorroFi</div>
-        <div class="song-date">Jun. 2024</div>
-        <div class="song-duration">3 mo</div>
+        <div class="song-company">Oracle</div>
+        <div class="song-date">Sep. 2025</div>
+        <div class="song-duration">Dec. 2025</div>
       </div>
 
       <div class="song-item">
         <div class="song-number">3</div>
         <div class="song-info">
-          <div class="album-art">🎵</div>
+          <div class="album-art">
+            <img src="/images/experiences/cdss.png" alt="DE" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
+          </div>
           <div class="song-details">
-            <h4>Data Science Intern</h4>
-            <p>Music Recommendation System & Analytics</p>
+            <h4>Head Teaching Assistant</h4>
+            <p>CS 187: Data Engineering</p>
           </div>
         </div>
-        <div class="song-company">Spotify</div>
-        <div class="song-date">Jun. 2023</div>
-        <div class="song-duration">3 mo</div>
+        <div class="song-company">UC Berkeley</div>
+        <div class="song-date">Jan. 2025</div>
+        <div class="song-duration">May. 2025</div>
       </div>
 
       <div class="song-item">
         <div class="song-number">4</div>
         <div class="song-info">
-          <div class="album-art">🎓</div>
+          <div class="album-art">
+            <img src="/images/experiences/zorrofi.png" alt="ZorroFi" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
+          </div>
+          <div class="song-details">
+            <h4>Machine Learning Intern</h4>
+            <p>Chatbot Evaluations</p>
+          </div>
+        </div>
+        <div class="song-company">ZorroFi</div>
+        <div class="song-date">Jun. 2024</div>
+        <div class="song-duration">Sep. 2024</div>
+      </div>
+
+      <div class="song-item">
+        <div class="song-number">5</div>
+        <div class="song-info">
+          <div class="album-art">
+            <img src="/images/experiences/jambase.png" alt="Spotify" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
+          </div>
+          <div class="song-details">
+            <h4>Contract Data Scienc Intern</h4>
+            <p>Chatbot Development</p>
+          </div>
+        </div>
+        <div class="song-company">JamBase</div>
+        <div class="song-date">Jan. 2025</div>
+        <div class="song-duration">May. 2025</div>
+      </div>
+
+      <div class="song-item">
+        <div class="song-number">6</div>
+        <div class="song-info">
+          <div class="album-art">
+            <img src="/images/experiences/cdss.png" alt="CDSS" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
+          </div>
           <div class="song-details">
             <h4>Software Developer</h4>
-            <p>Full-Stack Web Development & Database Design</p>
+            <p>Course Curriculum Development</p>
           </div>
         </div>
         <div class="song-company">UC Berkeley</div>
-        <div class="song-date">Jan. 2023</div>
-        <div class="song-duration">6 mo</div>
+        <div class="song-date">Jan. 2025</div>
+        <div class="song-duration">Jun. 2025</div>
       </div>
     </div>
 

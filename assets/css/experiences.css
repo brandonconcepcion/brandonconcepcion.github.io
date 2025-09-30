@@ -258,7 +258,6 @@ footer, .page__footer, .site-footer, .footer, .sitemap {
   display: flex;
   align-items: center;
   gap: 2rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   opacity: 1;
   transform: none;
   animation: none;
@@ -309,41 +308,51 @@ footer, .page__footer, .site-footer, .footer, .sitemap {
 
 .list-header {
   display: grid;
-  grid-template-columns: 40px 1fr 1fr 1fr 60px;
-  gap: 1rem;
-  padding: 1rem 0;
+  grid-template-columns: 40px 2fr 0.8fr 0.8fr 0.8fr;
+  gap: 0.25rem;
+  padding: 1rem 0 2rem 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   color: #b3b3b3;
   font-size: 0.875rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  text-transform: none;
+  letter-spacing: 0px;
   opacity: 0;
   transform: translateY(20px);
   animation: slideInUp 0.6s ease-out 1.2s forwards;
 }
 
+.list-header > div:first-child {
+  text-align: center;
+}
+
+.list-header > div:nth-child(3),
+.list-header > div:nth-child(4),
+.list-header > div:nth-child(5) {
+  text-align: center;
+}
+
 .song-item {
   display: grid;
-  grid-template-columns: 40px 1fr 1fr 1fr 60px;
-  gap: 1rem;
-  padding: 2rem 0;
+  grid-template-columns: 40px 2fr 0.8fr 0.8fr 0.8fr;
+  gap: 0.25rem;
+  padding: 1.5rem 0;
   border-radius: 4px;
   transition: background-color 0.3s ease;
   cursor: pointer;
   opacity: 0;
   transform: translateX(-20px);
   animation: slideInRight 0.5s ease-out forwards;
-  min-height: 80px;
+  min-height: 60px;
 }
 
 .song-item:hover {
   background: rgba(255, 255, 255, 0.05);
 }
 
-.song-item:nth-child(1) { animation-delay: 1.4s; }
-.song-item:nth-child(2) { animation-delay: 1.6s; }
-.song-item:nth-child(3) { animation-delay: 1.8s; }
-.song-item:nth-child(4) { animation-delay: 2.0s; }
+.song-item:nth-child(2) { animation-delay: 1.4s; }
+.song-item:nth-child(3) { animation-delay: 1.6s; }
+.song-item:nth-child(4) { animation-delay: 1.8s; }
+.song-item:nth-child(5) { animation-delay: 2.0s; }
 
 .song-number {
   color: #b3b3b3;
@@ -352,6 +361,7 @@ footer, .page__footer, .site-footer, .footer, .sitemap {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-left: 0;
 }
 
 .song-info {
@@ -388,23 +398,33 @@ footer, .page__footer, .site-footer, .footer, .sitemap {
 }
 
 .song-company {
-  color: #b3b3b3;
+  color: white;
   font-size: 0.875rem;
   display: flex;
   align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  text-align: center;
 }
 
 .song-date {
-  color: #b3b3b3;
+  color: white;
   font-size: 0.875rem;
   display: flex;
   align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  text-align: center;
 }
 
 .song-duration {
-  color: #b3b3b3;
+  color: white;
   font-size: 0.875rem;
-  text-align: right;
+  text-align: center;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Animations */
