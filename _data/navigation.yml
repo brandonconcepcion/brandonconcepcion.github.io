@@ -17,5 +17,8 @@ main:
   - title: "Portfolio"
     url: /portfolio/
 
+  - title: "Certifications"
+    url: /certifications/
+
   - title: "Acknowledgements"
     url: /acknowledgements.html/
